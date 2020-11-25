@@ -1,26 +1,27 @@
 $(document).ready(
   function(){
 
-
     $(".dropmenu").each(
       function(){
+        var dropdown;
+
         $(this).mouseenter(
           function(){
-            var dropdown = $(this).children(".box-container");
+            dropdown = $(this).children(".box-container");
             dropdown.fadeIn(400);
           }
         );
 
         $(this).click(
           function(){
-            var dropdown = $(this).children(".box-container");
+            dropdown = $(this).children(".box-container");
             dropdown.fadeToggle(400);
           }
         );
 
         $(this).mouseleave(
           function(){
-            var dropdown = $(this).children(".box-container");
+            dropdown = $(this).children(".box-container");
             dropdown.fadeOut(400);
           }
         );
