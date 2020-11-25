@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  margin: 40px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-left,
+#header-right{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#header-left #logo{
+  margin-right: 40px;
+}
+#header-left ul li,
+#header-right ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#header-right ul li:last-child{
+  margin-right: 0;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+a:hover{
+  color: black;
+}
