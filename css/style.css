@@ -44,6 +44,12 @@ header{
   line-height: 55px;
 }
 
+#header-left > ul > li > a,
+#header-right > ul > li > a{
+  display: inline-block;
+  height: 55px;
+}
+
 #header-left ul li.different a{
   font-weight: 700;
   color: #191C1F;
